@@ -37,7 +37,8 @@ function NewTodo({ onAddTodo }) {
         <button
           className="border-2 border-green-500 bg-green-500 rounded-lg ml-4 px-2 h-10 w-16"
           type="submit"
-          onClick={handleAddTodo}  >
+          onClick={handleAddTodo} 
+           >
           Add 
 
         </button>
