@@ -12,7 +12,7 @@ function NewTodo({ onAddTodo }) {
     if (body === "") {
       return false;
     } else {
-      fetch("http://localhost:9292/todos", {
+      fetch("http://localhost:3001/todos", {
         method: "post",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ body: body }),
