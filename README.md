@@ -1,5 +1,5 @@
 #backend repository link
-click here to access backend repo of this project (https://github.com/oyayafelix/toDo_backend).
+click here to access backend repo of this project (https://github.com/oyayafelix/toDo-backend).
 
 # Getting Started with Create React App
 
