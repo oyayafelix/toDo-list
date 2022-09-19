@@ -7,7 +7,7 @@ function Todo() {
   const [todos, setTodos] = useState([])
 
   useEffect(() => {
-    fetch("http://localhost:3001/todos")
+    fetch("http://localhost:9292/todos")
     .then(res => res.json())
     .then(data => {
       setTodos(data)

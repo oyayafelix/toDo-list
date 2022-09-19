@@ -12,7 +12,7 @@ function NewTodo({ onAddTodo }) {
     if (body === "") {
       return false;
     } else {
-      fetch("http://localhost:3001/todos", {
+      fetch("http://localhost:9292/todos", {
         method: "post",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ body: body }),
@@ -37,10 +37,9 @@ function NewTodo({ onAddTodo }) {
         <button
           className="border-2 border-green-500 bg-green-500 rounded-lg ml-4 px-2 h-10 w-16"
           type="submit"
-          onClick={handleAddTodo} 
-           >
-          Add 
-
+          onClick={handleAddTodo}
+        >
+          Add
         </button>
       </div>
     </div>

@@ -20,7 +20,6 @@ function SingleTodo({ todo, onDeleteTodo, onUpdateTodo }) {
   }
 
   return (
-    
     <div className="flex justify-between my-2 border-2 p-1 border-blue-300 rounded-sm text-xl">
  {isEditing ? (
         <EditTodo
